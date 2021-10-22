@@ -1,0 +1,217 @@
+1) Resolve A record
+>> python3 ./mydig.py cnn.org A
+
+; <<>> myDig 1.0.0 <<>> cnn.org
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 46851
+;; flags: QR AA RD; QUERY: 1, ANSWER: 3, AUTHORITY: 1, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+;; EDNS: version: 0, flags:; udp: 512
+;; QUESTION SECTION:
+; cnn.org. IN A
+
+;; ANSWER SECTION:
+cnn.org. 3600 IN A 157.166.255.32
+cnn.org. 3600 IN A 157.166.255.31
+cnn.org. 3600 IN A 157.166.226.46
+
+;; AUTHORITY SECTION:
+cnn.org. 172800 IN NS ns1.timewarner.net.
+cnn.org. 172800 IN NS ns3.timewarner.net.
+cnn.org. 172800 IN NS ns5.timewarner.net.
+
+;; Query time: 160 msec
+;; SERVER: ASOMAYAJ-MBP-295.local
+;; WHEN: Fri Sep 24 01:52:52 EDT 2021
+;; MSG SIZE  rcvd: 382
+
+***********************************************************
+
+>> python3 ./mydig.py cs.stonybrook.edu A 
+
+; <<>> myDig 1.0.0 <<>> cs.stonybrook.edu
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 22157
+;; flags: QR AA RD; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+;; EDNS: version: 0, flags:; udp: 512
+;; QUESTION SECTION:
+; cs.stonybrook.edu. IN A
+
+;; ANSWER SECTION:
+cs.stonybrook.edu. 900 IN A 130.245.27.3
+
+;; Query time: 103 msec
+;; SERVER: ASOMAYAJ-MBP-295.local
+;; WHEN: Fri Sep 24 02:04:16 EDT 2021
+;; MSG SIZE  rcvd: 205
+
+------------------------------------------------------------------------------------
+
+2) Resolve NS record
+>> python3 ./mydig.py cnn.org NS
+
+; <<>> myDig 1.0.0 <<>> cnn.org
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 44671
+;; flags: QR AA RD; QUERY: 1, ANSWER: 3, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+;; EDNS: version: 0, flags:; udp: 512
+;; QUESTION SECTION:
+; cnn.org. IN NS
+
+;; ANSWER SECTION:
+cnn.org. 172800 IN NS ns1.timewarner.net.
+cnn.org. 172800 IN NS ns3.timewarner.net.
+cnn.org. 172800 IN NS ns5.timewarner.net.
+
+;; Query time: 152 msec
+;; SERVER: ASOMAYAJ-MBP-295.local
+;; WHEN: Fri Sep 24 01:54:53 EDT 2021
+;; MSG SIZE  rcvd: 281
+
+------------------------------------------------------------------------------------
+
+3) Resolve MX record
+>> python3 ./mydig.py cnn.org MX
+
+; <<>> myDig 1.0.0 <<>> cnn.org
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 42349
+;; flags: QR AA RD; QUERY: 1, ANSWER: 1, AUTHORITY: 1, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+;; EDNS: version: 0, flags:; udp: 512
+;; QUESTION SECTION:
+; cnn.org. IN MX
+
+;; ANSWER SECTION:
+cnn.org. 600 IN MX 10 atlmail0.turner.com.
+
+;; AUTHORITY SECTION:
+cnn.org. 172800 IN NS ns1.timewarner.net.
+cnn.org. 172800 IN NS ns3.timewarner.net.
+cnn.org. 172800 IN NS ns5.timewarner.net.
+
+;; Query time: 122 msec
+;; SERVER: ASOMAYAJ-MBP-295.local
+;; WHEN: Fri Sep 24 01:56:10 EDT 2021
+;; MSG SIZE  rcvd: 324
+
+------------------------------------------------------------------------------------
+
+4) Resolve an A record which does not return IP in one pass (google.co.jp)
+>> python3 ./mydig.py google.co.jp A
+
+; <<>> myDig 1.0.0 <<>> google.co.jp
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 28024
+;; flags: QR AA RD; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+;; EDNS: version: 0, flags:; udp: 512
+;; QUESTION SECTION:
+; google.co.jp. IN A
+
+;; ANSWER SECTION:
+google.co.jp. 300 IN A 142.250.176.195
+
+;; Query time: 299 msec
+;; SERVER: ASOMAYAJ-MBP-295.local
+;; WHEN: Fri Sep 24 01:58:22 EDT 2021
+;; MSG SIZE  rcvd: 198
+
+*******************************************************
+
+>>python3 ./mydig.py google.co.jp NS
+
+; <<>> myDig 1.0.0 <<>> google.co.jp
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 11068
+;; flags: QR AA RD; QUERY: 1, ANSWER: 4, AUTHORITY: 0, ADDITIONAL: 9
+
+;; OPT PSEUDOSECTION:
+;; EDNS: version: 0, flags:; udp: 512
+;; QUESTION SECTION:
+; google.co.jp. IN NS
+
+;; ANSWER SECTION:
+google.co.jp. 345600 IN NS ns2.google.com.
+google.co.jp. 345600 IN NS ns4.google.com.
+google.co.jp. 345600 IN NS ns1.google.com.
+google.co.jp. 345600 IN NS ns3.google.com.
+
+;; Query time: 297 msec
+;; SERVER: ASOMAYAJ-MBP-295.local
+;; WHEN: Fri Sep 24 01:59:14 EDT 2021
+;; MSG SIZE  rcvd: 708
+
+------------------------------------------------------------------------------------
+
+5) Return SOA record in the authority section, in case the A record could not be resolved
+
+>> python3 ./mydig.py tmail.com A
+
+; <<>> myDig 1.0.0 <<>> tmail.com
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 31922
+;; flags: QR AA RD; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+;; EDNS: version: 0, flags:; udp: 512
+;; QUESTION SECTION:
+; tmail.com. IN A
+
+;; AUTHORITY SECTION:
+tmail.com. 60 IN SOA geo3.t-mobile.com. hostmaster.geo3.t-mobile.com. 2010090806 10800 3600 604800 60
+
+;; Query time: 133 msec
+;; SERVER: ASOMAYAJ-MBP-295.local
+;; WHEN: Fri Sep 24 02:01:14 EDT 2021
+;; MSG SIZE  rcvd: 258
+
+------------------------------------------------------------------------------------
+
+6) Resolve CNAMEs until we get an A record
+
+>> python3 ./mydig.py www.netflix.com A
+
+; <<>> myDig 1.0.0 <<>> www.netflix.com
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 12759
+;; flags: QR AA RD; QUERY: 1, ANSWER: 6, AUTHORITY: 1, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+;; EDNS: version: 0, flags:; udp: 512
+;; QUESTION SECTION:
+; www.netflix.com. IN A
+
+;; ANSWER SECTION:
+www.netflix.com. 300 IN CNAME www.dradis.netflix.com.
+www.dradis.netflix.com. 60 IN CNAME www.us-east-1.internal.dradis.netflix.com.
+www.us-east-1.internal.dradis.netflix.com. 60 IN CNAME dualstack.apiproxy-website-nlb-prod-1-5a4080be4d9bee00.elb.us-east-1.amazonaws.com.
+dualstack.apiproxy-website-nlb-prod-1-5a4080be4d9bee00.elb.us-east-1.amazonaws.com. 60 IN A 54.160.93.182
+dualstack.apiproxy-website-nlb-prod-1-5a4080be4d9bee00.elb.us-east-1.amazonaws.com. 60 IN A 3.211.157.115
+dualstack.apiproxy-website-nlb-prod-1-5a4080be4d9bee00.elb.us-east-1.amazonaws.com. 60 IN A 3.225.92.8
+
+;; AUTHORITY SECTION:
+netflix.com. 14400 IN NS ns-1372.awsdns-43.org.
+netflix.com. 14400 IN NS ns-1984.awsdns-56.co.uk.
+netflix.com. 14400 IN NS ns-659.awsdns-18.net.
+netflix.com. 14400 IN NS ns-81.awsdns-10.com.
+
+;; Query time: 483 msec
+;; SERVER: ASOMAYAJ-MBP-295.local
+;; WHEN: Fri Sep 24 02:02:40 EDT 2021
+;; MSG SIZE  rcvd: 940
