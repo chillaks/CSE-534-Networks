@@ -1,0 +1,331 @@
+2021-11-18 22:09:51.971 <TRACE> customRIP: Initializing
+2021-11-18 22:09:51.971 <TRACE> customRIP: Starting
+2021-11-18 22:09:51.971 <TRACE> customRIP: State changed to up
+2021-11-18 22:09:51.971 <INFO> Started
+2021-11-18 22:09:51.973 <TRACE> customRIP < interface lo goes up
+2021-11-18 22:09:51.973 <TRACE> customRIP < interface r3-eth0 goes up
+2021-11-18 22:09:51.973 <TRACE> customRIP: Adding interface r3-eth0
+2021-11-18 22:09:51.973 <TRACE> customRIP < interface r3-eth1 goes up
+2021-11-18 22:09:51.973 <TRACE> customRIP: Adding interface r3-eth1
+2021-11-18 22:09:51.973 <TRACE> customRIP: Starting interface r3-eth1
+2021-11-18 22:09:51.973 <TRACE> customRIP: Sending request via r3-eth1
+2021-11-18 22:09:51.973 <TRACE> customRIP: Starting interface r3-eth0
+2021-11-18 22:09:51.973 <TRACE> customRIP: Sending request via r3-eth0
+2021-11-18 22:09:51.979 <TRACE> customRIP: New neighbor 10.1.5.2 on r3-eth1
+2021-11-18 22:09:51.979 <TRACE> customRIP: Request received from 10.1.5.2 on r3-eth1
+2021-11-18 22:09:52.981 <TRACE> customRIP < interface r3-eth1 changes preferred address
+2021-11-18 22:09:53.141 <TRACE> customRIP < interface r3-eth0 changes preferred address
+2021-11-18 22:09:58.248 <TRACE> customRIP: Interface timer fired for r3-eth0
+2021-11-18 22:09:58.248 <TRACE> customRIP: Sending regular updates for r3-eth0
+2021-11-18 22:10:03.432 <TRACE> customRIP: Interface timer fired for r3-eth1
+2021-11-18 22:10:03.432 <TRACE> customRIP: Sending regular updates for r3-eth1
+2021-11-18 22:10:10.246 <TRACE> customRIP: Interface timer fired for r3-eth0
+2021-11-18 22:10:10.246 <TRACE> customRIP: Sending regular updates for r3-eth0
+2021-11-18 22:10:15.432 <TRACE> customRIP: Interface timer fired for r3-eth1
+2021-11-18 22:10:15.432 <TRACE> customRIP: Sending regular updates for r3-eth1
+2021-11-18 22:10:22.246 <TRACE> customRIP: Interface timer fired for r3-eth0
+2021-11-18 22:10:22.246 <TRACE> customRIP: Sending regular updates for r3-eth0
+2021-11-18 22:10:25.442 <TRACE> customRIP < interface r3-eth0 goes down
+2021-11-18 22:10:25.442 <TRACE> customRIP: Stopping interface r3-eth0
+2021-11-18 22:10:25.442 <TRACE> customRIP: Removing interface r3-eth0
+2021-11-18 22:10:25.443 <ERR> KIF: Received address message for unknown interface 2
+2021-11-18 22:10:25.443 <ERR> KIF: Received address message for unknown interface 2
+2021-11-18 22:10:25.474 <TRACE> customRIP: Removing neighbor 10.1.5.2 on r3-eth1
+2021-11-18 22:10:25.474 <TRACE> customRIP < interface r3-eth1 goes down
+2021-11-18 22:10:25.474 <TRACE> customRIP: Stopping interface r3-eth1
+2021-11-18 22:10:25.474 <TRACE> customRIP: Removing interface r3-eth1
+2021-11-18 22:10:25.475 <TRACE> customRIP < interface r3-eth1 changes preferred address
+2021-11-18 22:10:25.475 <TRACE> customRIP < interface r3-eth1 changes preferred address
+2021-11-18 22:10:25.500 <INFO> Shutting down
+2021-11-18 22:10:25.500 <TRACE> customRIP: Shutting down
+2021-11-18 22:10:25.500 <TRACE> customRIP: Shutdown requested
+2021-11-18 22:10:25.500 <TRACE> customRIP: State changed to flush
+2021-11-18 22:10:25.500 <TRACE> customRIP: State changed to down
+2021-11-18 22:10:25.500 <FATAL> Shutdown completed
+2021-11-18 22:26:19.798 <INFO> Started
+2021-11-18 22:27:50.639 <WARN> Netlink: Network is unreachable
+2021-11-18 22:27:50.639 <WARN> Netlink: Network is unreachable
+2021-11-18 22:27:50.639 <WARN> Netlink: Network is unreachable
+2021-11-18 22:27:50.639 <WARN> Netlink: Network is unreachable
+2021-11-18 22:27:50.639 <ERR> KIF: Received address message for unknown interface 2
+2021-11-18 22:27:50.639 <ERR> KIF: Received address message for unknown interface 2
+2021-11-18 22:27:50.670 <WARN> Netlink: Network is unreachable
+2021-11-18 22:27:50.670 <WARN> ...
+2021-11-18 22:27:50.697 <INFO> Shutting down
+2021-11-18 22:27:50.697 <FATAL> Shutdown completed
+2021-11-18 22:28:00.946 <INFO> Started
+2021-11-18 22:28:11.823 <WARN> Netlink: Network is unreachable
+2021-11-18 22:28:11.823 <WARN> Netlink: Network is unreachable
+2021-11-18 22:28:11.823 <WARN> Netlink: Network is unreachable
+2021-11-18 22:28:11.823 <WARN> Netlink: Network is unreachable
+2021-11-18 22:28:11.823 <ERR> KIF: Received address message for unknown interface 2
+2021-11-18 22:28:11.823 <ERR> KIF: Received address message for unknown interface 2
+2021-11-18 22:28:11.854 <WARN> Netlink: Network is unreachable
+2021-11-18 22:28:11.855 <WARN> ...
+2021-11-18 22:28:11.882 <INFO> Shutting down
+2021-11-18 22:28:11.882 <FATAL> Shutdown completed
+2021-11-18 22:35:09.799 <INFO> Started
+2021-11-18 22:35:33.435 <WARN> Netlink: Network is unreachable
+2021-11-18 22:35:33.435 <WARN> Netlink: Network is unreachable
+2021-11-18 22:35:33.435 <WARN> Netlink: Network is unreachable
+2021-11-18 22:35:33.435 <WARN> Netlink: Network is unreachable
+2021-11-18 22:35:33.435 <ERR> KIF: Received address message for unknown interface 2
+2021-11-18 22:35:33.435 <ERR> KIF: Received address message for unknown interface 2
+2021-11-18 22:35:33.467 <WARN> Netlink: Network is unreachable
+2021-11-18 22:35:33.467 <WARN> ...
+2021-11-18 22:35:33.493 <INFO> Shutting down
+2021-11-18 22:35:33.493 <FATAL> Shutdown completed
+2021-11-18 22:36:17.205 <INFO> Started
+2021-11-18 22:37:30.079 <WARN> Netlink: Network is unreachable
+2021-11-18 22:37:30.079 <WARN> Netlink: Network is unreachable
+2021-11-18 22:37:30.079 <WARN> Netlink: Network is unreachable
+2021-11-18 22:37:30.079 <WARN> Netlink: Network is unreachable
+2021-11-18 22:37:30.079 <ERR> KIF: Received address message for unknown interface 2
+2021-11-18 22:37:30.079 <ERR> KIF: Received address message for unknown interface 2
+2021-11-18 22:37:30.110 <WARN> Netlink: Network is unreachable
+2021-11-18 22:37:30.110 <WARN> ...
+2021-11-18 22:37:30.138 <INFO> Shutting down
+2021-11-18 22:37:30.138 <FATAL> Shutdown completed
+2021-11-18 22:37:38.854 <INFO> Started
+2021-11-18 22:38:21.895 <WARN> Netlink: Network is unreachable
+2021-11-18 22:38:21.895 <WARN> Netlink: Network is unreachable
+2021-11-18 22:38:21.895 <WARN> Netlink: Network is unreachable
+2021-11-18 22:38:21.895 <ERR> KIF: Received address message for unknown interface 2
+2021-11-18 22:38:21.895 <ERR> KIF: Received address message for unknown interface 2
+2021-11-18 22:38:21.926 <WARN> Netlink: Network is unreachable
+2021-11-18 22:38:21.927 <WARN> Netlink: Network is unreachable
+2021-11-18 22:38:21.927 <WARN> ...
+2021-11-18 22:38:21.954 <INFO> Shutting down
+2021-11-18 22:38:21.954 <FATAL> Shutdown completed
+2021-11-18 22:57:35.373 <INFO> Started
+2021-11-18 22:58:32.551 <WARN> Netlink: Network is unreachable
+2021-11-18 22:58:32.551 <WARN> Netlink: Network is unreachable
+2021-11-18 22:58:32.551 <WARN> Netlink: Network is unreachable
+2021-11-18 22:58:32.551 <ERR> KIF: Received address message for unknown interface 2
+2021-11-18 22:58:32.551 <ERR> KIF: Received address message for unknown interface 2
+2021-11-18 22:58:32.582 <WARN> Netlink: Network is unreachable
+2021-11-18 22:58:32.582 <WARN> Netlink: Network is unreachable
+2021-11-18 22:58:32.582 <WARN> ...
+2021-11-18 22:58:32.609 <INFO> Shutting down
+2021-11-18 22:58:32.609 <FATAL> Shutdown completed
+2021-11-18 23:04:46.911 <INFO> Started
+2021-11-18 23:05:13.715 <WARN> Netlink: Network is unreachable
+2021-11-18 23:05:13.715 <WARN> Netlink: Network is unreachable
+2021-11-18 23:05:13.715 <WARN> Netlink: Network is unreachable
+2021-11-18 23:05:13.715 <WARN> Netlink: Network is unreachable
+2021-11-18 23:05:13.715 <ERR> KIF: Received address message for unknown interface 2
+2021-11-18 23:05:13.715 <ERR> KIF: Received address message for unknown interface 2
+2021-11-18 23:05:13.747 <WARN> Netlink: Network is unreachable
+2021-11-18 23:05:13.747 <WARN> ...
+2021-11-18 23:05:13.772 <INFO> Shutting down
+2021-11-18 23:05:13.772 <FATAL> Shutdown completed
+2021-11-18 23:06:41.830 <INFO> Started
+2021-11-18 23:07:12.635 <WARN> Netlink: Network is unreachable
+2021-11-18 23:07:12.635 <WARN> Netlink: Network is unreachable
+2021-11-18 23:07:12.635 <WARN> Netlink: Network is unreachable
+2021-11-18 23:07:12.635 <WARN> Netlink: Network is unreachable
+2021-11-18 23:07:12.635 <ERR> KIF: Received address message for unknown interface 2
+2021-11-18 23:07:12.635 <ERR> KIF: Received address message for unknown interface 2
+2021-11-18 23:07:12.666 <WARN> Netlink: Network is unreachable
+2021-11-18 23:07:12.666 <WARN> ...
+2021-11-18 23:07:12.692 <INFO> Shutting down
+2021-11-18 23:07:12.692 <FATAL> Shutdown completed
+2021-11-18 23:08:24.352 <INFO> Started
+2021-11-18 23:08:34.807 <WARN> Netlink: Network is unreachable
+2021-11-18 23:08:34.807 <WARN> Netlink: Network is unreachable
+2021-11-18 23:08:34.807 <WARN> Netlink: Network is unreachable
+2021-11-18 23:08:34.807 <WARN> Netlink: Network is unreachable
+2021-11-18 23:08:34.807 <ERR> KIF: Received address message for unknown interface 2
+2021-11-18 23:08:34.807 <ERR> KIF: Received address message for unknown interface 2
+2021-11-18 23:08:34.839 <WARN> Netlink: Network is unreachable
+2021-11-18 23:08:34.839 <WARN> ...
+2021-11-18 23:08:34.865 <INFO> Shutting down
+2021-11-18 23:08:34.866 <FATAL> Shutdown completed
+2021-11-18 23:08:47.452 <INFO> Started
+2021-11-18 23:09:00.439 <WARN> Netlink: Network is unreachable
+2021-11-18 23:09:00.439 <WARN> Netlink: Network is unreachable
+2021-11-18 23:09:00.439 <WARN> Netlink: Network is unreachable
+2021-11-18 23:09:00.439 <WARN> Netlink: Network is unreachable
+2021-11-18 23:09:00.439 <ERR> KIF: Received address message for unknown interface 2
+2021-11-18 23:09:00.439 <ERR> KIF: Received address message for unknown interface 2
+2021-11-18 23:09:00.471 <WARN> Netlink: Network is unreachable
+2021-11-18 23:09:00.471 <WARN> ...
+2021-11-18 23:09:00.497 <INFO> Shutting down
+2021-11-18 23:09:00.497 <FATAL> Shutdown completed
+2021-11-18 23:12:43.297 <INFO> Started
+2021-11-18 23:14:21.571 <WARN> Netlink: Network is unreachable
+2021-11-18 23:14:21.571 <WARN> Netlink: Network is unreachable
+2021-11-18 23:14:21.571 <WARN> Netlink: Network is unreachable
+2021-11-18 23:14:21.571 <WARN> Netlink: Network is unreachable
+2021-11-18 23:14:21.571 <ERR> KIF: Received address message for unknown interface 2
+2021-11-18 23:14:21.571 <ERR> KIF: Received address message for unknown interface 2
+2021-11-18 23:14:21.603 <WARN> Netlink: Network is unreachable
+2021-11-18 23:14:21.603 <WARN> ...
+2021-11-18 23:14:21.628 <INFO> Shutting down
+2021-11-18 23:14:21.629 <FATAL> Shutdown completed
+2021-11-18 23:20:48.324 <INFO> Started
+2021-11-18 23:20:53.195 <WARN> Netlink: Network is unreachable
+2021-11-18 23:20:53.195 <WARN> Netlink: Network is unreachable
+2021-11-18 23:20:53.195 <WARN> Netlink: Network is unreachable
+2021-11-18 23:20:53.195 <WARN> Netlink: Network is unreachable
+2021-11-18 23:20:53.195 <ERR> KIF: Received address message for unknown interface 2
+2021-11-18 23:20:53.195 <ERR> KIF: Received address message for unknown interface 2
+2021-11-18 23:20:53.227 <WARN> Netlink: Network is unreachable
+2021-11-18 23:20:53.227 <WARN> ...
+2021-11-18 23:20:53.252 <INFO> Shutting down
+2021-11-18 23:20:53.252 <FATAL> Shutdown completed
+2021-11-18 23:36:35.387 <INFO> Started
+2021-11-18 23:40:09.651 <WARN> Netlink: Network is unreachable
+2021-11-18 23:40:09.652 <WARN> Netlink: Network is unreachable
+2021-11-18 23:40:09.652 <WARN> Netlink: Network is unreachable
+2021-11-18 23:40:09.652 <ERR> KIF: Received address message for unknown interface 2
+2021-11-18 23:40:09.652 <ERR> KIF: Received address message for unknown interface 2
+2021-11-18 23:40:09.683 <WARN> Netlink: Network is unreachable
+2021-11-18 23:40:09.683 <WARN> Netlink: Network is unreachable
+2021-11-18 23:40:09.683 <WARN> ...
+2021-11-18 23:40:09.709 <INFO> Shutting down
+2021-11-18 23:40:09.709 <FATAL> Shutdown completed
+2021-11-18 23:40:56.271 <INFO> Started
+2021-11-19 00:05:06.239 <WARN> Netlink: Network is unreachable
+2021-11-19 00:05:06.239 <WARN> Netlink: Network is unreachable
+2021-11-19 00:05:06.239 <WARN> Netlink: Network is unreachable
+2021-11-19 00:05:06.239 <WARN> Netlink: Network is unreachable
+2021-11-19 00:05:06.239 <ERR> KIF: Received address message for unknown interface 2
+2021-11-19 00:05:06.239 <ERR> KIF: Received address message for unknown interface 2
+2021-11-19 00:05:06.270 <WARN> Netlink: Network is unreachable
+2021-11-19 00:05:06.271 <WARN> ...
+2021-11-19 00:05:06.296 <INFO> Shutting down
+2021-11-19 00:05:06.297 <FATAL> Shutdown completed
+2021-11-19 00:26:55.290 <INFO> Started
+2021-11-19 00:28:33.635 <WARN> Netlink: Network is unreachable
+2021-11-19 00:28:33.635 <WARN> Netlink: Network is unreachable
+2021-11-19 00:28:33.635 <WARN> Netlink: Network is unreachable
+2021-11-19 00:28:33.635 <WARN> Netlink: Network is unreachable
+2021-11-19 00:28:33.635 <ERR> KIF: Received address message for unknown interface 2
+2021-11-19 00:28:33.635 <ERR> KIF: Received address message for unknown interface 2
+2021-11-19 00:28:33.667 <WARN> Netlink: Network is unreachable
+2021-11-19 00:28:33.667 <WARN> ...
+2021-11-19 00:28:33.695 <INFO> Shutting down
+2021-11-19 00:28:33.695 <FATAL> Shutdown completed
+2021-11-19 00:29:08.431 <INFO> Started
+2021-11-19 00:29:35.771 <WARN> Netlink: Network is unreachable
+2021-11-19 00:29:35.771 <WARN> Netlink: Network is unreachable
+2021-11-19 00:29:35.771 <WARN> Netlink: Network is unreachable
+2021-11-19 00:29:35.771 <WARN> Netlink: Network is unreachable
+2021-11-19 00:29:35.771 <ERR> KIF: Received address message for unknown interface 2
+2021-11-19 00:29:35.771 <ERR> KIF: Received address message for unknown interface 2
+2021-11-19 00:29:35.802 <WARN> Netlink: Network is unreachable
+2021-11-19 00:29:35.802 <WARN> ...
+2021-11-19 00:29:35.829 <INFO> Shutting down
+2021-11-19 00:29:35.829 <FATAL> Shutdown completed
+2021-11-19 00:41:17.789 <INFO> Started
+2021-11-19 00:48:27.887 <WARN> Netlink: Network is unreachable
+2021-11-19 00:48:27.887 <WARN> Netlink: Network is unreachable
+2021-11-19 00:48:27.887 <WARN> Netlink: Network is unreachable
+2021-11-19 00:48:27.887 <WARN> Netlink: Network is unreachable
+2021-11-19 00:48:27.887 <ERR> KIF: Received address message for unknown interface 2
+2021-11-19 00:48:27.887 <ERR> KIF: Received address message for unknown interface 2
+2021-11-19 00:48:27.918 <WARN> Netlink: Network is unreachable
+2021-11-19 00:48:27.918 <WARN> ...
+2021-11-19 00:48:27.944 <INFO> Shutting down
+2021-11-19 00:48:27.944 <FATAL> Shutdown completed
+2021-11-19 00:50:38.733 <INFO> Started
+2021-11-19 00:50:53.855 <WARN> Netlink: Network is unreachable
+2021-11-19 00:50:53.855 <WARN> Netlink: Network is unreachable
+2021-11-19 00:50:53.855 <WARN> Netlink: Network is unreachable
+2021-11-19 00:50:53.855 <WARN> Netlink: Network is unreachable
+2021-11-19 00:50:53.855 <ERR> KIF: Received address message for unknown interface 2
+2021-11-19 00:50:53.855 <ERR> KIF: Received address message for unknown interface 2
+2021-11-19 00:50:53.886 <WARN> Netlink: Network is unreachable
+2021-11-19 00:50:53.886 <WARN> ...
+2021-11-19 00:50:53.913 <INFO> Shutting down
+2021-11-19 00:50:53.913 <FATAL> Shutdown completed
+2021-11-19 00:52:33.077 <INFO> Started
+2021-11-19 00:55:51.135 <WARN> Netlink: Network is unreachable
+2021-11-19 00:55:51.135 <WARN> Netlink: Network is unreachable
+2021-11-19 00:55:51.135 <WARN> Netlink: Network is unreachable
+2021-11-19 00:55:51.135 <WARN> Netlink: Network is unreachable
+2021-11-19 00:55:51.135 <ERR> KIF: Received address message for unknown interface 2
+2021-11-19 00:55:51.135 <ERR> KIF: Received address message for unknown interface 2
+2021-11-19 00:55:51.166 <WARN> Netlink: Network is unreachable
+2021-11-19 00:55:51.167 <WARN> ...
+2021-11-19 00:55:51.193 <INFO> Shutting down
+2021-11-19 00:55:51.193 <FATAL> Shutdown completed
+2021-11-19 00:56:25.496 <INFO> Started
+2021-11-19 00:58:21.535 <WARN> Netlink: Network is unreachable
+2021-11-19 00:58:21.535 <WARN> Netlink: Network is unreachable
+2021-11-19 00:58:21.535 <WARN> Netlink: Network is unreachable
+2021-11-19 00:58:21.535 <WARN> Netlink: Network is unreachable
+2021-11-19 00:58:21.535 <ERR> KIF: Received address message for unknown interface 2
+2021-11-19 00:58:21.535 <ERR> KIF: Received address message for unknown interface 2
+2021-11-19 00:58:21.567 <WARN> Netlink: Network is unreachable
+2021-11-19 00:58:21.567 <WARN> ...
+2021-11-19 00:58:21.593 <INFO> Shutting down
+2021-11-19 00:58:21.593 <FATAL> Shutdown completed
+2021-11-19 00:59:28.271 <INFO> Started
+2021-11-19 01:00:09.095 <WARN> Netlink: Network is unreachable
+2021-11-19 01:00:09.095 <WARN> Netlink: Network is unreachable
+2021-11-19 01:00:09.095 <WARN> Netlink: Network is unreachable
+2021-11-19 01:00:09.095 <WARN> Netlink: Network is unreachable
+2021-11-19 01:00:09.095 <ERR> KIF: Received address message for unknown interface 2
+2021-11-19 01:00:09.095 <ERR> KIF: Received address message for unknown interface 2
+2021-11-19 01:00:09.127 <WARN> Netlink: Network is unreachable
+2021-11-19 01:00:09.127 <WARN> ...
+2021-11-19 01:00:09.153 <INFO> Shutting down
+2021-11-19 01:00:09.153 <FATAL> Shutdown completed
+2021-11-19 01:00:18.832 <INFO> Started
+2021-11-19 01:00:22.091 <WARN> Netlink: Network is unreachable
+2021-11-19 01:00:22.091 <WARN> Netlink: Network is unreachable
+2021-11-19 01:00:22.091 <WARN> Netlink: Network is unreachable
+2021-11-19 01:00:22.091 <WARN> Netlink: Network is unreachable
+2021-11-19 01:00:22.091 <ERR> KIF: Received address message for unknown interface 2
+2021-11-19 01:00:22.091 <ERR> KIF: Received address message for unknown interface 2
+2021-11-19 01:00:22.122 <WARN> Netlink: Network is unreachable
+2021-11-19 01:00:22.123 <WARN> ...
+2021-11-19 01:00:22.148 <INFO> Shutting down
+2021-11-19 01:00:22.148 <FATAL> Shutdown completed
+2021-11-19 01:01:03.312 <INFO> Started
+2021-11-19 02:33:59.451 <WARN> Netlink: Network is unreachable
+2021-11-19 02:33:59.451 <WARN> Netlink: Network is unreachable
+2021-11-19 02:33:59.451 <WARN> Netlink: Network is unreachable
+2021-11-19 02:33:59.451 <WARN> Netlink: Network is unreachable
+2021-11-19 02:33:59.451 <ERR> KIF: Received address message for unknown interface 2
+2021-11-19 02:33:59.451 <ERR> KIF: Received address message for unknown interface 2
+2021-11-19 02:33:59.482 <WARN> Netlink: Network is unreachable
+2021-11-19 02:33:59.482 <WARN> ...
+2021-11-19 02:33:59.509 <INFO> Shutting down
+2021-11-19 02:33:59.510 <FATAL> Shutdown completed
+2021-11-19 02:36:18.432 <INFO> Started
+2021-11-19 03:21:17.767 <WARN> Netlink: Network is unreachable
+2021-11-19 03:21:17.767 <WARN> Netlink: Network is unreachable
+2021-11-19 03:21:17.767 <WARN> Netlink: Network is unreachable
+2021-11-19 03:21:17.767 <WARN> Netlink: Network is unreachable
+2021-11-19 03:21:17.767 <ERR> KIF: Received address message for unknown interface 2
+2021-11-19 03:21:17.767 <ERR> KIF: Received address message for unknown interface 2
+2021-11-19 03:21:17.798 <WARN> Netlink: Network is unreachable
+2021-11-19 03:21:17.798 <WARN> ...
+2021-11-19 03:21:17.824 <INFO> Shutting down
+2021-11-19 03:21:17.825 <FATAL> Shutdown completed
+2021-11-19 03:29:21.545 <INFO> Started
+2021-11-19 03:34:15.843 <WARN> Netlink: Network is unreachable
+2021-11-19 03:34:15.843 <WARN> Netlink: Network is unreachable
+2021-11-19 03:34:15.843 <WARN> Netlink: Network is unreachable
+2021-11-19 03:34:15.843 <WARN> Netlink: Network is unreachable
+2021-11-19 03:34:15.843 <ERR> KIF: Received address message for unknown interface 2
+2021-11-19 03:34:15.843 <ERR> KIF: Received address message for unknown interface 2
+2021-11-19 03:34:15.874 <WARN> Netlink: Network is unreachable
+2021-11-19 03:34:15.874 <WARN> ...
+2021-11-19 03:34:15.900 <INFO> Shutting down
+2021-11-19 03:34:15.900 <FATAL> Shutdown completed
+2021-11-19 03:37:54.072 <INFO> Started
+2021-11-19 03:40:16.671 <WARN> Netlink: Network is unreachable
+2021-11-19 03:40:16.671 <WARN> Netlink: Network is unreachable
+2021-11-19 03:40:16.671 <WARN> Netlink: Network is unreachable
+2021-11-19 03:40:16.671 <WARN> Netlink: Network is unreachable
+2021-11-19 03:40:16.671 <ERR> KIF: Received address message for unknown interface 2
+2021-11-19 03:40:16.671 <ERR> KIF: Received address message for unknown interface 2
+2021-11-19 03:40:16.702 <WARN> Netlink: Network is unreachable
+2021-11-19 03:40:16.702 <WARN> ...
+2021-11-19 03:40:16.728 <INFO> Shutting down
+2021-11-19 03:40:16.728 <FATAL> Shutdown completed
+2021-11-19 03:40:38.246 <INFO> Started
